@@ -8,12 +8,10 @@ def sort_list_imperative(numbers):
             numbers[pos] = numbers[pos - 1]
             pos -= 1
         numbers[pos] = number
-    pass
     return numbers
 
 def sort_list_declarative(numbers):
     numbers.sort(reverse=True)
-    pass
     return numbers
 
 
